@@ -2,6 +2,8 @@
 from PIL import Image, ImageDraw, ImageFilter
 import random
 
+#TODO генератор перлина
+
 im1 = Image.new("RGB", (512, 512))  # Создаем изображение 256 на 256 пикселей.
 draw = ImageDraw.Draw(im1)  # Создаем холст для нашего фона.
 width = im1.size[0]
